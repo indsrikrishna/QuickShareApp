@@ -25,7 +25,7 @@ jobs:
         run: chmod +x ./gradlew || true
 
       - name: Build debug APK
-        run: cd QuickShareApp && ../gradlew assembleDebug --no-daemon
+        run: cd QuickShareApp && .cd QuickShareApp && ../gradlew assembleDebug --no-daemon
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
