@@ -1,0 +1,8 @@
+[33mcommit 9a74c1e792b11b86df9657dc974c3ed596cb17d9[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfix/workflow-gradle[m[33m, [m[1;31morigin/fix/workflow-gradle[m[33m)[m
+Author: indsrikrishna <indsrikrishna@gmail.com>
+Date:   Tue Nov 11 20:25:17 2025 +0000
+
+    fix: gradle build path and permissions
+
+ ...roid-build.yml | 25 [32m+++[m[31m---[m
+ 1 file changed, 14 insertions(+), 11 deletions(-)
